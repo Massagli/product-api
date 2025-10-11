@@ -1,3 +1,11 @@
+Aplicativos/Ferramentas
+- Go lang
+- Docker
+- PostgreSQL
+- Dbeaver
+- 
+
+
 # product-api
 
 # Iniciar Projeto Go
@@ -11,3 +19,16 @@ ele cria a pasta "go.mod" que contem as dependencias diretas e indiretas.
 -> para rodar precisamos entrar na pasta onde se encontra o nosso arquivo principal.
 -> no terminal: cd [nome da pasta]
 -> no terminal: go run [nome do arquivo .go]
+
+# Derrumar a aplicação
+-> no terminal: ctrl + c
+
+# Criar docker
+-> criar arquivo "docker-compose.yml"
+
+# Iniciar docker
+-> após configurar
+-> no terminal: docker compose up -d [nome do container]
+
+# Testar container
+-> no terminal: docker container ls
