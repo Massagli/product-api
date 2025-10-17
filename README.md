@@ -13,6 +13,7 @@ Aplicativos/Ferramentas
 
 # Download Framework (gin)
 -> no terminal: go get [path do pacote]
+go get github.com/gin-gonic/gin
 ele cria a pasta "go.mod" que contem as dependencias diretas e indiretas.
 
 # Rodar a aplicação
@@ -39,3 +40,7 @@ Para consumir os dados registrados nas tabelas, precisamos criar um model na API
 
 # Criar pasta "model"
 -> para cada tabela precisamos criar um modelo. 
+
+# Controler
+-> ele recebe as requisições e retorna o resultado
+-> criar pasta controler
