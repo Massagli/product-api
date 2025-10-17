@@ -32,3 +32,10 @@ ele cria a pasta "go.mod" que contem as dependencias diretas e indiretas.
 
 # Testar container
 -> no terminal: docker container ls
+
+
+Após configurar o ambiente devemos criar o banco de dados.
+Para consumir os dados registrados nas tabelas, precisamos criar um model na API pra comportar a estrutura feita no SQL
+
+# Criar pasta "model"
+-> para cada tabela precisamos criar um modelo. 
