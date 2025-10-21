@@ -44,3 +44,7 @@ Para consumir os dados registrados nas tabelas, precisamos criar um model na API
 # Controler
 -> ele recebe as requisições e retorna o resultado
 -> criar pasta controler
+
+# Usecase
+
+# db
