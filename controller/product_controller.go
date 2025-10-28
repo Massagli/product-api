@@ -16,7 +16,7 @@ func NewProductController(usecase usecase.ProductUsecase) produtcController{
 	return produtcController{
 		productUseCase: usecase,
 	}
-}
+} 
 
 func(p *produtcController) GetProducts(ctx *gin.Context){
 	products, err := p.productUseCase.GetProducts()
