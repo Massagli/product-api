@@ -18,6 +18,7 @@ func NewUserUseCase(repo repository.UserRepository) UserUsecase{
 	}
 }
 
+//Cuida de toda a lógica e funcionalidade do produto
 func(us *UserUsecase) GetUsers() ([]model.User, error){
 	return us.repository.GetUser()
 }

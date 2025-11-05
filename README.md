@@ -143,6 +143,20 @@ Camada intermediária entre o Controller e o Repository.
                         └─────────────┘
 
 
+### 🍽️ Analogia:
+Pensa no seu sistema como um restaurante:
+
+- 🧺 Banco de dados → é o estoque do restaurante, onde ficam guardados todos os ingredientes (as informações do sistema).
+
+- 🧑‍🍳 Repository → é o ajudante de cozinha. Ele vai até o estoque (banco de dados), busca os ingredientes (dados) e leva para o chef.
+
+- 👨‍🍳 Usecase → é o chef de cozinha. Ele decide como o prato vai ser preparado, aplica as receitas e garante que tudo siga as regras do restaurante (as regras de negócio).
+
+- 🧾 Controller → é o garçom que fala com o cliente. Ele recebe o pedido (requisição HTTP), leva até o chef (usecase) e depois entrega o prato pronto (resposta).
+
+### Resumo:
+-  Em resumo então o repository pega os dados do banco, passa para o usecase para os dados serem tratados e joga para o controller para exibir após receber a requisição.
+
 ### 💡 Resumo da Comunicação:
 - O Cliente envia uma requisição → Controller.
 - O Controller chama o Usecase, que aplica as regras de negócio.
