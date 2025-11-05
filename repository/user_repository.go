@@ -21,7 +21,7 @@ func NewUserRepository(connection *sql.DB) UserRepository{
 
 func(user *UserRepository) GetUser() ([]model.User, error){
 	//query de busca no banco
-	query := "SELECT id, user_name, user_age FROM user"
+	query := "SELECT id, user_name, user_email FROM users"
 	//trazendo resultado da query na variável "rows"
 	rows, err := user.connection.Query(query)
 
@@ -46,7 +46,7 @@ func(user *UserRepository) GetUser() ([]model.User, error){
 		err = rows.Scan(
 			&userObj.ID,
 			&userObj.User_name,
-			&userObj.User_age)
+			&userObj.User_email)
 
 		if err != nil{
 			fmt.Println(err)
