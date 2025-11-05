@@ -7,7 +7,7 @@ import (
 
 type ProductUsecase struct {
 	//Repository
-	repository repository.ProductRepository
+	repository repository.ProductRepository 
 }
 
 //Inicializa a estrutura
