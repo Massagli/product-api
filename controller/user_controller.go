@@ -25,3 +25,4 @@ func(u *userController) GetUsers(ctx *gin.Context){
 	ctx.JSON(http.StatusOK, users)
 }
 
+

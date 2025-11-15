@@ -40,6 +40,8 @@ func main(){
 	server.GET("/products", ProductController.GetProducts)
 	server.GET("/users", UserController.GetUsers)
 
+	server.POST("product", ProductController.CreateProduct)
+
 
 	server.Run(":8000") // por padrao roda na porta 8080
 }

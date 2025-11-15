@@ -60,3 +60,4 @@ func(user *UserRepository) GetUser() ([]model.User, error){
 
 	return userList, nil
 }
+
