@@ -174,6 +174,32 @@ Pensa no seu sistema como um restaurante:
 - Escalabilidade a longo prazo.
 
 
+## 🐳 Docker
 
+### 1. Criar o Arquivo DockerFile
+....
+
+### 2. Gerar Imagem da API
+Após configurar o Dockerfile, execute:
+```bash
+docker build - t [nome-da-imagem] .
+``` 
+
+### 3. Verificar as Imagens Ativas
+Após configurar o docker-compose.yml, execute:
+```bash
+docker container ls
+``` 
+
+### 4. Verificar as Imagens Ativas
+No docker compose precisamos criar o service tanto do banco quanto da API
+
+### 5. Subir os Containers
+Após configurar o docker-compose.yml, execute:
+```bash
+docker compose up -d 
+``` 
+
+---
 
 
